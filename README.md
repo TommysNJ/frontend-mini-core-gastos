@@ -1,3 +1,64 @@
+# Sistema de Gestión de Gastos - Frontend
+
+## Descripción del Proyecto
+Este es el frontend del sistema de gestión de gastos, desarrollado con **React.js** para proporcionar una interfaz de usuario moderna, minimalista y fácil de usar. Permite a los usuarios filtrar y visualizar los gastos por departamento en un rango de fechas.
+
+### Características:
+- Entrada de rango de fechas para filtrar gastos.
+- Visualización en tabla de los totales de gastos por departamento.
+- Diseño minimalista centrado en la experiencia del usuario.
+
+### Tecnologías utilizadas:
+- **React.js**: Framework para construir la interfaz de usuario.
+- **Axios**: Para realizar solicitudes HTTP al backend.
+- **CSS**: Para el diseño y estilo minimalista.
+
+---
+
+## Tabla de Contenidos
+1. Instalación y Configuración
+2. Uso del Proyecto
+3. Estructura de Componentes
+4. Créditos
+
+---
+
+## Instalación y Configuración
+### Requisitos previos:
+1. Tener **Node.js** o **Yarn** instalados.
+
+### Pasos de instalación:
+1. Clona el repositorio:
+   ```bash
+   git clone <URL_DEL_REPOSITORIO>
+   ```
+2. Instala las dependencias:
+   ```bash
+   yarn install
+   ```
+3. Inicia el proyecto en modo de desarrollo:
+   ```bash
+   yarn start
+   ```
+
+---
+
+## Uso del Proyecto
+### Estructura de la aplicación:
+- **CalcularGastos**: Componente principal donde se ingresan las fechas, se realiza la consulta al backend y se visualizan los resultados.
+
+### Flujo principal:
+1. El usuario ingresa un rango de fechas (inicio y fin).
+2. Presiona el botón "Calcular".
+3. Los datos de gastos son recuperados desde el backend y se muestran en una tabla con los totales por departamento.
+
+---
+
+## Créditos
+Este frontend fue desarrollado por **Tommy** como parte del sistema de gestión de gastos. 
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
